@@ -1,0 +1,70 @@
+/* ตั้งค่าพื้นฐานสำหรับ body */
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* สีพื้นหลังอ่อน */
+    color: #333; /* สีตัวอักษร */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* สไตล์ทั่วไปสำหรับหัวข้อ */
+  h1, h2, h3 {
+    font-weight: bold;
+    color: #2c3e50; /* สีหัวข้อ */
+  }
+  
+  /* สไตล์สำหรับรายการสินค้า */
+  .product-item {
+    background-color: #ffffff; /* สีพื้นหลังของรายการสินค้า */
+    border: 1px solid #e0e0e0; /* ขอบสีเทาอ่อน */
+    border-radius: 8px; /* มุมโค้ง */
+    padding: 16px; /* ระยะห่างภายใน */
+    margin: 10px; /* ระยะห่างระหว่างรายการ */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาเล็กน้อย */
+    transition: transform 0.2s; /* การเคลื่อนไหวเมื่อ hover */
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05); /* ขยายรายการสินค้าเมื่อ hover */
+  }
+  
+  /* สไตล์สำหรับปุ่ม */
+  button {
+    background-color: #3498db; /* สีน้ำเงิน */
+    color: #ffffff; /* สีตัวอักษรขาว */
+    border: none;
+    border-radius: 4px; /* มุมโค้งของปุ่ม */
+    padding: 5px 10px; /* ระยะห่างภายใน */
+    cursor: pointer; /* เปลี่ยนรูปแบบเคอร์เซอร์ */
+    transition: background-color s; /* การเปลี่ยนสีเมื่อ hover */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* สีน้ำเงินเข้มเมื่อ hover */
+  }
+  
+  /* สไตล์สำหรับ Shopping Cart */
+  .shopping-cart {
+    margin-top: 20px; /* ระยะห่างด้านบน */
+    padding: 20px; /* ระยะห่างภายใน */
+    background-color: #ffffff; /* สีพื้นหลังของตะกร้า */
+    border-radius: 8px; /* มุมโค้ง */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาเล็กน้อย */
+  }
+  
+  /* สไตล์สำหรับข้อความราคาสินค้า */
+  .total-price {
+    font-weight: bold; /* ตัวหนา */
+    color: #e74c3c; /* สีแดงสำหรับราคาสุทธิ */
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* ทำให้รูปครอบคลุมพื้นที่ที่กำหนด */
+    border-radius: 8px; /* ทำให้มุมโค้งเล็กน้อย */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อความสวยงาม */
+  }
+  
+  
